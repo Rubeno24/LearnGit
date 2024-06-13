@@ -16,6 +16,9 @@ Allows developers to create branches to work on feature or bug fixes and eventua
     git checkout -b branch_name
         create a new branch and switch to it
 
+    git switch branch_name
+        switches to branchname of choice
+
 Git Status 
     git status 
         Gives information about a branch, what files are created deleted, what needs to be staged or unstaged
@@ -23,7 +26,7 @@ Git Status
         Or if the branch is up to date
 
 Git Add
-    git add 
+    git add file name
         How we include files in our next commit
     git add --all
         include all files that were modified in the next commit
